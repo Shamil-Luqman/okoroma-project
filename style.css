@@ -1,0 +1,98 @@
+.overlay{position: relative;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 100px;
+    max-width: calc(562px + 100px * 2);
+    z-index: 1;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 50px
+}
+
+.dropletter { padding: 35px; font-size: 50px;}
+.Opener {
+    position: absolute;
+        width:100vw;
+  opacity: 50%; height:580px; 
+    }
+
+.follower {
+  posistion: absolute;
+  width:75vw;
+  opacity:50%; height:100%;
+    margin-left:160px;
+  margin-top:40px;
+  margin-bottom:40px;
+}
+.opener_title { animation: fadeEffect 2s ease-in;
+  posistion:relative;
+    line-height: 1;
+    font-size: 100px;
+    margin-bottom: 50px;
+
+   font-family: 'EB Garamond'; 
+}
+
+.deck_text {
+  posistion: relative; line-height: 0.8; font-size: 25px; padding-bottom: 50px;
+  font-family: 'EB Garamond';
+}
+
+.byline {
+  posistion: relative; line-height: 0.8; font-size: 40px; margin bottom: 20px;
+  font-family: 'Libre Baskerville';
+}
+.content {ease-in-out;
+    position: relative;
+    width: 100%;
+    max-width: 562px;
+    margin: 0 auto
+}
+.article {
+  font-size: 50px; font-family:'Libre Baskerville';
+}
+
+
+ 
+    
+    @keyframes fadeEffect { /* from 0 to full opacity */
+       from {opacity: 0;}
+       to {opacity: 1;}
+    }
+
+.splash_art {clip-path: polygon(0 0, 100% 0, 50% 100%, 48% 100%); position: relative; 
+ background-color: black; width: 50px; height: 50px;  left: 50%; margin-bottom:15px; margin-top:20px; 
+  
+}
+.pullquote { font-size: 35px; posistion: absolute; font-color:black; left:50%; padding-top: 10px; margin-left:50px; margin-right:50px; 
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 60px
+}
+.pullquote--float {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 10;
+    margin-left: -20vw
+}
+
+.pullquote__wrap {
+    width: 800px
+}
+
+  .fade-in {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
